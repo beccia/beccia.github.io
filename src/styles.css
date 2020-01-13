@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Allan';
+}
+h2 {
+    font-family: 'Allan';
+    color: #af9e30;
+}
+
+
+.outer {
+    background-color: #f0eda2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-size: calc(10px + 1vmin); 
+}
+
+.zebra {
+    content: "";
+    background: url(images/zebra.jpg);
+    opacity: 0.095;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; 
+    z-index: 1;   
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #09d9f5;
+    padding: 1.2vw;
+    min-width: 85vw;
+    max-width: 94vw;
+    min-height: 72vh;
+    z-index: 10;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url(images/ocean.jpg);
+    background-position: center center;
+    border-style: outset;
+    border-width: 0.2em;
+    margin-bottom: 4.9vh;
+    border-top-color: #ccbc53;
+    border-left-color: #ccbc53;
+    border-right-color: #f0eda2;
+    border-bottom-color: #f0eda2;
+}
+
+.main-content {
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    margin: 3.2vh;
+    min-width: 30vw;
+    min-height: 36vw;
+    max-width: 760px;
+    text-align: center;
+    align-content: center;
+    background-color: #bcf3f5;
+    opacity: 0.72;
+    border-style: inset;
+    border-width: 0.1em;
+    border-top-color: #09d9f5;
+    border-left-color: #09d9f5;
+    border-right-color: #a8e9f1;
+    border-bottom-color: #a8e9f1;
+}
+
+.main-content>p {
+    opacity: 1;
+    z-index: 99;  
+    margin: 15px;
+    font-family: 'Dekko'
+}
+
+
+.home-header {
+    font-size: calc(22px + 1vmin);
+    margin-top: 2vh;
+    color: #818181;
+}
+
+.links{
+    margin-top: 6vh;
+}
+
+.footer {
+background-color: #ddcd65;
+font-size: 17px;
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 0.7vh;
+text-align: center;
+font-family: 'Allan';
+}
+
+.subhead {
+    font-size: calc(8px + 1vmin);
+    color: #818181;
+}
