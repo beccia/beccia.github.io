@@ -93,8 +93,9 @@ h2 {
 
 .home-header {
     font-size: calc(22px + 1vmin);
-    margin-top: 2vh;
-    color: #818181;
+    margin-top: 1vh;
+    margin-bottom: 0.7vh;
+    color: #727272;
 }
 
 .links{
@@ -114,5 +115,6 @@ font-family: 'Allan';
 
 .subhead {
     font-size: calc(8px + 1vmin);
-    color: #818181;
+    color: #727272;
+    margin-bottom: 0.6vh;
 }
