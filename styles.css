@@ -119,4 +119,9 @@ font-family: 'Allan';
     font-size: calc(8px + 1vmin);
     color: #727272;
     margin-bottom: 0.6vh;
+    font-family: 'Allan';
+}
+
+.small {
+    font-size: calc(1.3px + 1vmin);
 }
